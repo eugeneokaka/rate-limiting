@@ -46,7 +46,7 @@ async function rateLimiter(req, res, next) {
 // protected route
 app.get("/api/test", rateLimiter, (req, res) => {
   res.json({
-    message: "Request successful v1",
+    message: "Request successful ",
   });
 });
 
