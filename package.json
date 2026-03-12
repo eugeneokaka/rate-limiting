@@ -1,0 +1,22 @@
+{
+  "name": "ratelimiting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@upstash/redis": "^1.36.4",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
